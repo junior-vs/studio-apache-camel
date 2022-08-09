@@ -1,0 +1,14 @@
+version: '3.5'
+
+services:
+  activemq:
+    container_name: artemis
+    image: webcenter/activemq:5.14.3
+    ports:
+      - 8161:8161 
+      - 61616:61616
+      - 61613:61613
+    environment:
+      ACTIVEMQ_ADMIN_LOGIN: admin
+      ACTIVEMQ_ADMIN_PASSWORD: 102030
+      ACTIVEMQ_ACTIVEMQ_USERS_APPUSER: APPUSER
