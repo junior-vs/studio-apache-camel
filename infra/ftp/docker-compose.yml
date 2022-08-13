@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ftp:
+    image: bogem/ftp
+    build:
+      context: .
+      dockerfile: ./Dockerfile

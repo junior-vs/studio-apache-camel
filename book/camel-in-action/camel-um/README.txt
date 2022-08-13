@@ -1,3 +1,10 @@
+# Nota de Estudo
+
+- Estudar mais a fundo o "Camel Properties".
+- Fim do capitulo 2
+
+
+# Sobre Open Liberty
 After you generate a starter project, these instructions will help you with what to do next.
 
 The Open Liberty starter gives you a simple, quick way to get the necessary files to start building

@@ -11,4 +11,10 @@ services:
     environment:
       ACTIVEMQ_ADMIN_LOGIN: admin
       ACTIVEMQ_ADMIN_PASSWORD: 102030
-      ACTIVEMQ_ACTIVEMQ_USERS_APPUSER: APPUSER
+      ACTIVEMQ_ACTIVEMQ_USERS_APPUSER: appuser
+    networks:
+      - network-mysql
+networks: 
+  network-mysql:
+    driver: bridge    
+
